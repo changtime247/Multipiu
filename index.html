@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Selectable - Display as grid</title>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div id="selectable">
+        <div class="box row1 column1 ui-state-default"></div>
+        <div class="box row1 column2 ui-state-default"></div>
+        <div class="box row1 column3 ui-state-default"></div>
+        <div class="box row1 column4 ui-state-default"></div>
+        <div class="box row1 column5 ui-state-default"></div>
+        <div class="box row1 column6 ui-state-default"></div>
+        <div class="box row1 column7 ui-state-default"></div>
+        <div class="box row1 column8 ui-state-default"></div>
+        <div class="box row1 column9 ui-state-default"></div>
+        <div class="box row1 column10 ui-state-default"></div>
+        <div class="box row2 column1 ui-state-default"></div>
+        <div class="box row2 column2 ui-state-default"></div>
+        <div class="box row2 column3 ui-state-default"></div>
+        <div class="box row2 column4 ui-state-default"></div>
+        <div class="box row2 column5 ui-state-default"></div>
+        <div class="box row2 column6 ui-state-default"></div>
+        <div class="box row2 column7 ui-state-default"></div>
+        <div class="box row2 column8 ui-state-default"></div>
+        <div class="box row2 column9 ui-state-default"></div>
+        <div class="box row2 column10 ui-state-default"></div>
+        <div class="box row3 column1 ui-state-default"></div>
+        <div class="box row3 column2 ui-state-default"></div>
+        <div class="box row3 column3 ui-state-default"></div>
+        <div class="box row3 column4 ui-state-default"></div>
+        <div class="box row3 column5 ui-state-default"></div>
+        <div class="box row3 column6 ui-state-default"></div>
+        <div class="box row3 column7 ui-state-default"></div>
+        <div class="box row3 column8 ui-state-default"></div>
+        <div class="box row3 column9 ui-state-default"></div>
+        <div class="box row3 column10 ui-state-default"></div>
+        <div class="box row4 column1 ui-state-default"></div>
+        <div class="box row4 column2 ui-state-default"></div>
+        <div class="box row4 column3 ui-state-default"></div>
+        <div class="box row4 column4 ui-state-default"></div>
+        <div class="box row4 column5 ui-state-default"></div>
+        <div class="box row4 column6 ui-state-default"></div>
+        <div class="box row4 column7 ui-state-default"></div>
+        <div class="box row4 column8 ui-state-default"></div>
+        <div class="box row4 column9 ui-state-default"></div>
+        <div class="box row4 column10 ui-state-default"></div>
+        <div class="box row5 column1 ui-state-default"></div>
+        <div class="box row5 column2 ui-state-default"></div>
+        <div class="box row5 column3 ui-state-default"></div>
+        <div class="box row5 column4 ui-state-default"></div>
+        <div class="box row5 column5 ui-state-default"></div>
+        <div class="box row5 column6 ui-state-default"></div>
+        <div class="box row5 column7 ui-state-default"></div>
+        <div class="box row5 column8 ui-state-default"></div>
+        <div class="box row5 column9 ui-state-default"></div>
+        <div class="box row5 column10 ui-state-default"></div>
+        <div class="box row6 column1 ui-state-default"></div>
+        <div class="box row6 column2 ui-state-default"></div>
+        <div class="box row6 column3 ui-state-default"></div>
+        <div class="box row6 column4 ui-state-default"></div>
+        <div class="box row6 column5 ui-state-default"></div>
+        <div class="box row6 column6 ui-state-default"></div>
+        <div class="box row6 column7 ui-state-default"></div>
+        <div class="box row6 column8 ui-state-default"></div>
+        <div class="box row6 column9 ui-state-default"></div>
+        <div class="box row6 column10 ui-state-default"></div>
+        <div class="box row7 column1 ui-state-default"></div>
+        <div class="box row7 column2 ui-state-default"></div>
+        <div class="box row7 column3 ui-state-default"></div>
+        <div class="box row7 column4 ui-state-default"></div>
+        <div class="box row7 column5 ui-state-default"></div>
+        <div class="box row7 column6 ui-state-default"></div>
+        <div class="box row7 column7 ui-state-default"></div>
+        <div class="box row7 column8 ui-state-default"></div>
+        <div class="box row7 column9 ui-state-default"></div>
+        <div class="box row7 column10 ui-state-default"></div>
+        <div class="box row8 column1 ui-state-default"></div>
+        <div class="box row8 column2 ui-state-default"></div>
+        <div class="box row8 column3 ui-state-default"></div>
+        <div class="box row8 column4 ui-state-default"></div>
+        <div class="box row8 column5 ui-state-default"></div>
+        <div class="box row8 column6 ui-state-default"></div>
+        <div class="box row8 column7 ui-state-default"></div>
+        <div class="box row8 column8 ui-state-default"></div>
+        <div class="box row8 column9 ui-state-default"></div>
+        <div class="box row8 column10 ui-state-default"></div>
+        <div class="box row9 column1 ui-state-default"></div>
+        <div class="box row9 column2 ui-state-default"></div>
+        <div class="box row9 column3 ui-state-default"></div>
+        <div class="box row9 column4 ui-state-default"></div>
+        <div class="box row9 column5 ui-state-default"></div>
+        <div class="box row9 column6 ui-state-default"></div>
+        <div class="box row9 column7 ui-state-default"></div>
+        <div class="box row9 column8 ui-state-default"></div>
+        <div class="box row9 column9 ui-state-default"></div>
+        <div class="box row9 column10 ui-state-default"></div>
+        <div class="box row10 column1 ui-state-default"></div>
+        <div class="box row10 column2 ui-state-default"></div>
+        <div class="box row10 column3 ui-state-default"></div>
+        <div class="box row10 column4 ui-state-default"></div>
+        <div class="box row10 column5 ui-state-default"></div>
+        <div class="box row10 column6 ui-state-default"></div>
+        <div class="box row10 column7 ui-state-default"></div>
+        <div class="box row10 column8 ui-state-default"></div>
+        <div class="box row10 column9 ui-state-default"></div>
+        <div class="box row10 column10 ui-state-default"></div>
+      </div>
+    </div>
+    <section class="main">
+      <section class="speech">
+        <h3 id="display">Let's learn to multiply!!</h3>
+        <h4></h4>
+        <p>
+          ps... in case you forgot, <br />rows go left (&#8592;) and right
+          (&#8594;)<br />columns go up (&#8593;) and down (&#8595;)
+        </p>
+      </section>
+
+      <section class="oContain">
+        <section class="container">
+          <button class="button btn btn-danger">START COUNT</button>
+          <button class="button" id="freshIt">START OVER</button>
+        </section>
+        <section class="container">
+          <input type="text" placeholder="How many chosen?" maxlength="3" />
+          <button class="button" id="answer">I KNOW THE ANSWER!</button>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
